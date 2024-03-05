@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS133DA_index</title>
+	<!--
+		Chris Neal
+		Mesa Community College
+		Resume Final
+		jan 29,2024
+		https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+		interactive menu
+	-->
+	<link rel="stylesheet" href="baseline.css">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+ 
+<body onLoad="show_clock()">
+	<div id='wrapper' class='darkmode'>
+		<div class="header-flex">
+			<div class="logo">
+				<a href="index.html"><img src="logo.jpeg" width="100" height="100" alt="logo"></a>
+			</div>
+		</div>
+		<div class="headText">
+			<header>
+					<h1>Chris Neal Resume</h1>
+			</header>
+		</div>
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html" id="index" class="dark">Home</a>
+				<a href="experience.html" id="experience" class="dark">Experience</a>
+				<a href="education.html" id="education" class="dark">Education</a>
+				<a href="projects.html" id="projects" class="dark">Projects</a>
+				<a href="https://www.linkedin.com/in/chris-neal-csg/" id="linkedin" class="dark" target="_blank">Linkedin</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+					<script language="javascript" src="liveclock.js">
+					//http://dynamicdrive.com/dynamicindex6/clock2.htm
+					/* 
+					Live Clock Script-
+					By Mark Plachetta (astro@bigpond.net.au(c)) based on code from DynamicDrive.com
+					For full source code, 100's more DHTML scripts, and Terms Of Use,
+					visit http://www.dynamicdrive.com
+					*/
+				</script>
+			</div>
+			
+		</nav>
+		<main>
+			<hr>
+			<h2>Projects</h2>
+			<div class="flex-container">
+				<div>
+					<h3><b>Homelab</b></h3>
+					<p>
+						Build and maintain local network services within a home lab using different technologies. 
+					</p>
+					<p><b>Active Technologies:</b></p>
+					<ul>
+						<li>OpnSense</li>
+						<li>Ubiquity Edgerouter</li>
+						<li>Ubiquity EdgeSwitch</li>
+						<li>Ubiquity Wireless</li>
+						<li>Ubnt unifi</li>
+						<li>TrueNAS Scale</li>
+						<li>Proxmox</li>
+						<li>Virtualbox</li>
+						<li>Syslog</li>
+						<li>Linux</li>
+						<li>windows 11</li>
+						
+					</ul>
+					<p><b>Pending Technologies:</b></p>
+					<ul>
+						<li>N/A</li>
+					</ul>
+					<p><b>Decomissioned Technologies:</b></p>
+					<ul>
+						<li>pfSense</li>
+						<li>snort</li>
+						<li>TrueNAS CORE</li>
+						<li>Xen/Citrix XenServer</li>
+						<li>Microsoft Hyper-v</li>
+						<li>windows server 2012</li>
+						<li>windows server 2016</li>
+						<li>windows 10</li>
+						<li>windows 8/8.1</li>
+						<li>windows 7</li>
+						<li>windows XP</li>
+						<li>windows 95</li>
+						<li>Ubuntu</li>
+						<li>centOS</li>
+					</ul>
+				</div>
+				<div>
+					<h3><b>Cyberlab</b></h3>
+					<p>
+						Build and maintain a cyber security research lab for study of various security topics. 
+					</p>
+					<p><b>Active Technologies:</b></p>
+					<ul>
+						<li>Wazuh</li>
+						<li>suricata</li>
+						<li>Config Security and Firewall(CSF)</li>
+						<li>ClamAV</li>
+						<li>RKhunter/Chrootkit</li>
+						<li>Nessus</li>
+						<li>Crowdsec</li>
+						<li>firejail</li>
+					</ul>
+					<p><b>Pending Technologies:</b></p>
+					<ul>
+						<li>Graylog</li>
+						<li>Grafana</li>
+						<li>kibana</li>
+						<li>MISP</li>
+						<li>openCTI</li>
+						<li>theHive/cortex</li>
+						<li>velociraptor</li>
+						<li>cassandra</li>
+						<li>shuffle</li>
+						<li>influxDB</li>
+						<li>openVAS</li>
+					</ul>
+					<p><b>Decomissioned Technologies:</b></p>
+					<ul>
+						<li>N/A</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+		</main>
+		<footer>
+			<div class="footer-flex">
+				<div>
+					<p>
+						<!--<a href="mailto:email@email.com">Contact_Me</a>-->
+						<script type="text/javascript">
+							/*<![CDATA[*/
+
+							/***********************************************
+							* Encrypt Email script- Please keep notice intact
+							* Tool URL: http://www.dynamicdrive.com/emailriddler/
+							* **********************************************/
+							<!-- Encrypted version of: email [at] *****.*** //-->
+
+							var emailriddlerarray=[101,109,97,105,108,64,101,109,97,105,108,46,99,111,109]
+							var encryptedemail_id14='' //variable to contain encrypted email 
+							for (var i=0; i<emailriddlerarray.length; i++)
+							 encryptedemail_id14+=String.fromCharCode(emailriddlerarray[i])
+
+							document.write('<a href="mailto:'+encryptedemail_id14+'?subject=webmail: ">Author: Chris Neal</a>')
+
+							/*]]>*/
+						</script>
+					</p>
+					<p><a href="contact.html">Contact_Me</a></p>
+				</div>
+				<div>
+					<div class="mood">
+						<table>
+							<tr>
+								<th><h3 id="DarkModetext">Dark Mode is ON</h3></th>
+								<th><button onclick="debug()">debug</button></th>
+							</tr>
+						</table>
+						<button onclick="darkMode()">Darkmode</button>
+						<button onclick="lightMode()">LightMode</button>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
+
+<script type="text/javascript">	
+	//sets cookie for dark or light mode//
+	//https://stackoverflow.com/questions/10730362/get-cookie-by-name
+	var mood = ('; '+document.cookie).split(`; mood=`).pop().split(';')[0];
+	if(mood == ""){
+		document.cookie = "mood=dark;SameSite=Strict";
+	}
+	//reads the mood to see if page needs to be dark or light mode//
+	if(mood == "light"){
+	    lightMode();
+	}else{
+		darkMode();
+	}
+	
+	//will display the settings in the cookie for mood//
+	function debug() {
+		mood = ('; '+document.cookie).split(`; mood=`).pop().split(';')[0];
+		alert("mood: " + mood);
+	}
+	//changes page to dark mode//
+	function darkMode() {
+		let element = document.getElementById("wrapper");
+		let content = document.getElementById("DarkModetext");
+		let index = document.getElementById("index");
+		let experience = document.getElementById("experience");
+		let education = document.getElementById("education");
+		let projects = document.getElementById("projects");
+		let linkedin = document.getElementById("linkedin");
+		element.className = "dark-mode";
+		content.innerText = "Dark Mode is ON";
+		index.classList.remove('light');
+		experience.classList.remove('light');
+		education.classList.remove('light');
+		projects.classList.remove('activeLight');
+		linkedin.classList.remove('light');
+		index.classList.add('dark');
+		experience.classList.add('dark');
+		education.classList.add('dark');
+		projects.classList.add('activeDark');
+		linkedin.classList.add('dark');
+		document.cookie = "mood=dark;SameSite=Strict";
+		//mood = "dark"
+		document.getElementById("LiveClockIE").style.backgroundColor = "#313131"
+		myfont_color = "#D3D3D3";
+		//myback_color = "#313131";//grey
+		
+	}
+	//changes page to light mode//
+	function lightMode() {
+		let element = document.getElementById("wrapper");
+		let content = document.getElementById("DarkModetext");
+		let active = document.getElementById("active");
+		let menu = document.getElementsByClassName("dark");
+		let index = document.getElementById("index");
+		let experience = document.getElementById("experience");
+		let education = document.getElementById("education");
+		let projects = document.getElementById("projects");
+		let linkedin = document.getElementById("linkedin");
+		element.className = "light-mode";
+		content.innerText = "Dark Mode is OFF";
+		index.classList.remove('dark');
+		experience.classList.remove('dark');
+		education.classList.remove('dark');
+		projects.classList.remove('activeDark');
+		linkedin.classList.remove('dark');
+		index.classList.add('light');
+		experience.classList.add('light');
+		education.classList.add('light');
+		projects.classList.add('activeLight');
+		linkedin.classList.add('light');
+		document.cookie = "mood=light;SameSite=Strict";
+		//mood = "light"
+		document.getElementById("LiveClockIE").style.backgroundColor = "#D3D3D3"
+		myfont_color = "black";
+		//myback_color = "white";
+	}
+	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>
