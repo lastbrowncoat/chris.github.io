@@ -234,7 +234,7 @@ main h2 {
 }
 @media all and (min-width: 600px) and (max-width: 1024px){
 	.outer {
-		max-width: 45%;
+		max-width: 40%;
 	}
 	.inner {
 		max-width: 45%;
